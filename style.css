@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    background-color: brown;
+    min-width: none;
+    min-height: 100px;
+    max-width: 500px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #979797;
+}
+
+.card{
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+.image_container {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.image_container img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.description_container{
+    padding: 20px;
+    text-align: center;
+}
